@@ -13,6 +13,7 @@ import java.util.*;
 /**
  * Thread unsafe!
  */
+@SuppressWarnings("deprecated")
 public class CoverageConverter {
     private final SensorContext context;
 

@@ -6,7 +6,7 @@
 
     <groupId>ru.bool.sonar.plugin</groupId>
     <artifactId>bitbucket-coverage-publisher</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>sonar-plugin</packaging>
     <description>Plugin to publishing coverage data to bitbucket pull requests</description>
 
@@ -77,6 +77,15 @@
                 <configuration>
                     <encoding>UTF-8</encoding>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals><goal>prepare-agent</goal></goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

@@ -2,7 +2,6 @@ package ru.bool.sonar.plugin.bitbucket.http;
 
 import okhttp3.*;
 import org.sonar.api.batch.BatchSide;
-import ru.bool.sonar.plugin.BitbucketCoveragePublisherPlugin;
 import ru.bool.sonar.plugin.bitbucket.PluginConfig;
 
 @BatchSide

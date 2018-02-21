@@ -1,7 +1,6 @@
 package ru.bool.sonar.plugin.bitbucket.transform;
 
 import org.sonar.api.batch.bootstrap.ProjectBuilder;
-import org.sonar.api.batch.bootstrap.ProjectDefinition;
 import org.sonar.api.batch.fs.InputFile;
 
 import java.io.File;
